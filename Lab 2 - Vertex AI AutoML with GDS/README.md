@@ -47,7 +47,7 @@ You're now presented with a menu of runtimes available.  We're going to clone th
 
 In the terminal type the command:
 
-    git clone https://github.com/neo4j-partners/hands-on-lab-neo4j-and-vertex-ai.git
+    git clone https://github.com/neo4j-partners/mini-hands-on-lab-neo4j-and-vertex-ai.git
 
 ![](images/10-terminal.png)
 
@@ -56,7 +56,7 @@ When complete, you should see a message in the terminal as well as a new directo
 ![](images/11-clone.png)
  
 
-Let's start by firing up a notebook.  Click on the new "hands-on-lab-neo4j-and-vertex-ai" in the file explorer.  Drill down to Lab 2 and open the `1_create_embedding.ipynb` notebook.  Start up a Python kernel and work through that noteboook!
+Let's start by firing up a notebook.  Click on the new "mini-hands-on-lab-neo4j-and-vertex-ai" in the file explorer.  Drill down to Lab 2 and open the `1_create_embedding.ipynb` notebook.  Start up a Python kernel and work through that noteboook!
 
 ![](images/12-kernel.png)
 

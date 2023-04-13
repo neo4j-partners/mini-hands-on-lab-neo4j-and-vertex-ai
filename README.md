@@ -34,12 +34,12 @@ If you have a Google Cloud account with permissions that allow you to invoke Ver
 * Break (10 min)
 
 ### Part 2
-* Lecture - [Moving Data](https://docs.google.com/presentation/d/1O6Oy_GbDYYCvQanUyUCl30hQdSsy9kKL53Jgl23Nnsk/edit?usp=sharing) (10 min)
+* Lecture - [Moving Data](https://docs.google.com/presentation/d/1O6Oy_GbDYYCvQanUyUCl30hQdSsy9kKL53Jgl23Nnsk/edit?usp=sharing) (5 min)
     * LOAD CSV
     * Apache Beam and Google Dataflow
     * Apache Spark and Google Dataproc
     * Apache Kafka and Cloud Cloud
-* Lecture - [Graph Data Science](https://docs.google.com/presentation/d/133tXAH--V7Uvyd0Ylhs08_xDEPfl64uvaNNdxeHVpvk/edit?usp=sharing) (10 min)
+* Lecture - [Graph Data Science](https://docs.google.com/presentation/d/133tXAH--V7Uvyd0Ylhs08_xDEPfl64uvaNNdxeHVpvk/edit?usp=sharing) (5 min)
     * Why Graph Data Science
     * Neo4j GDS
     * Algorithm Families and Examples
@@ -54,10 +54,10 @@ If you have a Google Cloud account with permissions that allow you to invoke Ver
 * Break (10 min)
 
 ### Part 3
-* Lecture - [Vertex AI](https://docs.google.com/presentation/d/19TewJE5YgESTmN9qW4MOtFP4m39uPhUaRXErkCzrdbE/edit?usp=sharing) (10 min)
+* Lecture - [Vertex AI](https://docs.google.com/presentation/d/19TewJE5YgESTmN9qW4MOtFP4m39uPhUaRXErkCzrdbE/edit?usp=sharing) (5 min)
     * What is Vertex AI?
     * Using Vertex AI with Neo4j
 * [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS/README.md) (15 min)
     * AutoML with Vertex AI
-* [Lab 8 - Cleanup](Lab%208%20-%20Cleanup) (5 min)
+* [Lab 3 - Cleanup](Lab%203%20-%20Cleanup) (5 min)
 * [Discussion - Questions and Next Steps](Discussion%20-%20Questions%20and%20Next%20Steps.md) (5 min)
