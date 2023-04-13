@@ -47,7 +47,7 @@ If you have a Google Cloud account with permissions that allow you to invoke Ver
     * Centrality
     * Community Detection
     * Graph Machine Learning
-* [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS/README.md) (15 min)
+* [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS) (15 min)
     * Data Modelling
     * Load Data
     * GDS Embedding
@@ -57,7 +57,7 @@ If you have a Google Cloud account with permissions that allow you to invoke Ver
 * Lecture - [Vertex AI](https://docs.google.com/presentation/d/19TewJE5YgESTmN9qW4MOtFP4m39uPhUaRXErkCzrdbE/edit?usp=sharing) (5 min)
     * What is Vertex AI?
     * Using Vertex AI with Neo4j
-* [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS/README.md) (15 min)
+* [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS/2_vertexai_automl.ipynb) (15 min)
     * AutoML with Vertex AI
 * [Lab 3 - Cleanup](Lab%203%20-%20Cleanup) (5 min)
 * [Discussion - Questions and Next Steps](Discussion%20-%20Questions%20and%20Next%20Steps.md) (5 min)

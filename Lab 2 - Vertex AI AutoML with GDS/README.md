@@ -1,4 +1,4 @@
-# Lab 5 - Vertex AI AutoML with GDS
+# Lab 2 - Vertex AI AutoML with GDS
 
 ## Vertex AI Workbench
 Now that we've done some very light weight exploration, let's try using a more full featured environment, Vertex AI Workbench.  Open up the [Google Cloud Console](https://console.cloud.google.com/).
