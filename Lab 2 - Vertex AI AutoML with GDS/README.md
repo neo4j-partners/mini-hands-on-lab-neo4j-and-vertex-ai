@@ -56,7 +56,9 @@ When complete, you should see a message in the terminal as well as a new directo
 ![](images/11-clone.png)
  
 
-Let's start by firing up a notebook.  Click on the new "mini-hands-on-lab-neo4j-and-vertex-ai" in the file explorer.  Drill down to Lab 2 and open the `1_create_embedding.ipynb` notebook.  Start up a Python kernel and work through that noteboook!
+Let's start by firing up a notebook.  Click on the new "mini-hands-on-lab-neo4j-and-vertex-ai" in the file explorer.  Drill down to Lab 2 and open the [p1-graph-loading.ipynb](p1-graph-loading.ipynb) notebook.  Start up a Python kernel and work through that noteboook!
+
+Once you are done with this notebook, proceed to [p2-graph-feature-eng.ipynb](p2-graph-feature-eng.ipynb) and [p3-vertexai-automl.ipynb](p3-vertexai-automl.ipynb)
 
 ![](images/12-kernel.png)
 
