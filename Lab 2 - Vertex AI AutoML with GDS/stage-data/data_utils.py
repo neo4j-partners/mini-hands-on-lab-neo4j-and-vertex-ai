@@ -29,8 +29,8 @@ def make_beneficiary_df(data_dir: str = 'data/') -> pd.DataFrame:
 
     # 2 is False for chronic conditions....lets make indicators
     for col in beneficiary_df.columns:
-        if 'chronicCond' in col:
-            beneficiary_df[col + 'Ind'] = (beneficiary_df[col] - 2) * -1
+        if 'chronicCond' in col: 
+            beneficiary_df.loc[beneficiary_df[col] == 2, col] = 0
 
     beneficiary_df['dOB'] = pd.to_datetime(beneficiary_df['dOB'], format="%Y-%m-%d")
     beneficiary_df['dOD'] = pd.to_datetime(beneficiary_df['dOD'], format="%Y-%m-%d")
@@ -43,9 +43,7 @@ def make_beneficiary_df(data_dir: str = 'data/') -> pd.DataFrame:
     beneficiary_df['approxAge'] = round((beneficiary_df['maxDate'] - beneficiary_df['dOB']).dt.days / 365, 1)
     beneficiary_df.drop(columns=['maxDate'])
 
-    beneficiary_df['renalDiseaseIndicatorNum'] = np.array(beneficiary_df['renalDiseaseIndicator'] == 'Y').astype(int)
-    beneficiary_df['renalDiseaseFlag'] = \
-        np.array(beneficiary_df['renalDiseaseIndicatorNum'] > beneficiary_df['chronicCondKidneyDiseaseInd']).astype(int)
+    beneficiary_df['renalDiseaseIndicator'] = np.array(beneficiary_df['renalDiseaseIndicator'] == 'Y').astype(int)
 
     return beneficiary_df
 
