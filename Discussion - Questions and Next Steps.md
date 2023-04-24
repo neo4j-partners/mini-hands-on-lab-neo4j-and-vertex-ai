@@ -15,13 +15,13 @@ The Neo4j [Spark Connector](https://neo4j.com/docs/spark/current/) is another wa
 
 With a novel data set combined with a novel approach to machine learning, there's enough material here for numerous business applications or academic papers.  Some areas that might be interesting to explore in the future follow.
 
-Some work on tuning the embedding would improve accuracy.  It is interesting that, even without tuning, the embedding provides more valuable features than either reportCalendarOrQuarter or cusip.
+Some work on tuning the embedding would improve accuracy.
 
 **Vertex AI AutoML**
 
 Vertex AI is an amazing suite of products.  It's largely serverless.  The GUI is intuitive.  It takes almost all the infrastructure pain out of machine learning.  At the same time, it is very very new.  The console is constantly changing.  New features are often introduced with only a REST API.  The APIs change.
 
-AutoML takes ~2.5 hours to run even with a 1 hour budget.  The nice part about using a SaaS like Vertex AI is that all this is going to improve without any need to manage upgrades, infrastructure, etc.
+AutoML takes ~2 hours to run even with a 1 hour budget.  The nice part about using a SaaS like Vertex AI is that all this is going to improve without any need to manage upgrades, infrastructure, etc.
 
 New features for batch prediction and forecasting were recently released.  We're exploring including those in future versions of this lab as they mature.
 

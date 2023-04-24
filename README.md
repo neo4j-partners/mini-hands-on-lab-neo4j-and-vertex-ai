@@ -36,28 +36,23 @@ If you have a Google Cloud account with permissions that allow you to invoke Ver
 ### Part 2
 * Lecture - [Moving Data](https://docs.google.com/presentation/d/1O6Oy_GbDYYCvQanUyUCl30hQdSsy9kKL53Jgl23Nnsk/edit?usp=sharing) (5 min)
     * LOAD CSV
-    * Apache Beam and Google Dataflow
-    * Apache Spark and Google Dataproc
-    * Apache Kafka and Cloud Cloud
+    * Data pipelines on GCP
+* [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS) (10 min)
+    * Data Modelling
+    * Load Data [Notebook](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS/p1-graph-loading.ipynb)
 * Lecture - [Graph Data Science](https://docs.google.com/presentation/d/133tXAH--V7Uvyd0Ylhs08_xDEPfl64uvaNNdxeHVpvk/edit?usp=sharing) (5 min)
     * Why Graph Data Science
     * Neo4j GDS
     * Algorithm Families and Examples
-    * Similarity
-    * Centrality
-    * Community Detection
-    * Graph Machine Learning
 * [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS) (15 min)
-    * Data Modelling
-    * Load Data
-    * GDS Embedding
+    * GDS Embedding [Notebook](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS/p2-graph-feature-eng.ipynb)
 * Break (10 min)
 
 ### Part 3
 * Lecture - [Vertex AI](https://docs.google.com/presentation/d/19TewJE5YgESTmN9qW4MOtFP4m39uPhUaRXErkCzrdbE/edit?usp=sharing) (5 min)
     * What is Vertex AI?
     * Using Vertex AI with Neo4j
-* [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS/2_vertexai_automl.ipynb) (15 min)
+* [Lab 2 - Vertex AI AutoML with GDS](Lab%202%20-%20Vertex%20AI%20AutoML%20with%20GDS/p3-vertexai-automl.ipynb) (10 min)
     * AutoML with Vertex AI
 * [Lab 3 - Cleanup](Lab%203%20-%20Cleanup) (5 min)
 * [Discussion - Questions and Next Steps](Discussion%20-%20Questions%20and%20Next%20Steps.md) (5 min)
